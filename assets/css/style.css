@@ -1,9 +1,33 @@
+    
+    
+    
+    
+    /***************************** Table OF Contents **********************************
+    1. Header
+    2. Dropdown
+    3. Home
+    4. Advertisement Cards
+    5. About Our Company
+    6. Seller Section
+    7. Order Cards
+    8. Newsletter
+    9. Footer
+    ***************************** Table OF Ends Contents **********************************/
+
+
+
+    
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*********************** 1. Header *************************/
+
+
+
 header {
     background: var(--bg-gradient)
 }
@@ -31,7 +55,8 @@ header {
 #navbar_style .brand_style{
     color: white;
 }
-/* Dropdown Starts Here */
+/*********************** 2. Dropdown *************************/
+
 #navbar_style .dropbtn {
     background-color: var(--primary);
     color: white;
@@ -77,7 +102,8 @@ header {
     cursor: pointer;
   }
 
-/* Home Starts Here */
+/*********************** 3. Home *************************/
+
 #home_content{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -107,7 +133,9 @@ header {
     font-size: 1.2rem;
 
 }
-/* Small Cards Here */
+
+/*********************** 4. Advertisement Cards *************************/
+
 .numbers{
     background-color: RGB(234, 234, 234);
     padding-bottom: 65px;
@@ -136,10 +164,11 @@ header {
     border: 2px solid #01A26C;
     border-radius: 45px;
 }
-    /* About Section Here */
+    /*********************** 5. About Our Company*************************/
+
 
 #about_section{
-    /* border: 1px solid black; */
+    
     margin-top: 40px;
     margin-bottom: 80px;
 }
@@ -165,6 +194,7 @@ header {
     padding-left: 90px;
 }
 
+/*********************** 6. Seller Section *************************/
 
 #seller_section .brand_product{
     font-size: 3rem;
@@ -233,6 +263,9 @@ header {
 .seller_cards .card_box:hover{
     transform: scale(1.07);
 }
+
+/*********************** 7. Order Cards *************************/
+
 #news_cards .wrapper span{
     font-size: 2rem;
     font-weight: 700;
@@ -247,6 +280,8 @@ header {
     color: var(--primary);
     text-decoration: none;
 }
+
+/*********************** 8. Newsletter *************************/
 
 #email_heading{
     margin-top: 4%;
@@ -270,21 +305,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*********************** 9. Footer *************************/
 
 #footer_section .email_input_heading{
     color: var(--primary);
@@ -301,6 +322,7 @@ header {
 #footer_starter{
     border-bottom: 3px solid black;
     margin-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 #footer_section .email_input_heading{
@@ -321,4 +343,7 @@ header {
 }
 #footer_contact_icons{
     color: #01A26C;
+}
+#footer_down{
+    background-color: var(--primary);
 }
