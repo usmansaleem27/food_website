@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./assets/css/variables.css">
+  <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+
+
+
+  <!-- Navbar Starts Here -->
+  <nav class="navbar navbar-expand-md" id="navbar_style">
+    <div class="container-fluid">
+      <a class="navbar-brand brand_style" href="#">Foodies.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-auto mt-2 mb-lg-0">
+          <li class="nav-item navbar_menu">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item navbar_menu">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item navbar_menu">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item navbar_menu">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item navbar_menu">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+        </ul>
+        <span class="navbar_icons"><i class="bi bi-search"></i></span>
+        <span class="navbar_icons"><i class="bi bi-list"></i></span>
+        <span class="navbar_icons"><i class="bi bi-cart-dash"></i></span>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><i class="bi bi-caret-down-fill"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Ends Starts Here -->
+
+  <!-- Home Page Starts Here -->
+  <header>
+
+    <div class="container text-center">
+      <div class="row">
+        <div id="front_content_left" class="col-md-7 col-sm-12">
+          <h1>Eat Clean and Green.</h1>
+          <h1>Eat 100% Organic</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nihil animi? Sunt deserunt
+            magnam itaque. Totam voluptas reiciendis laboriosam recusandae.</p>
+          <button id="my_button" class="my_button_center">View Features</button>
+        </div>
+        <div id="front_side_image" class="col-md-5 col-sm-12 h-25">
+          <img class="img-fluid" src="./assets/images/front_home_image.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Home Page Ends Here -->
+
+  <!-- Small Cards Section -->
+  <div class="container-fluid g-0 text-center">
+    <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+      <div class="rect">
+        <img src="./assets/images/card_image.png" width="80px" alt="">
+        <p>Happy Client</p>
+      </div>
+      <div class="rect">
+        <img src="./assets/images/card_image.png" width="80px" alt="">
+        <p>Cups Coffee</p>
+      </div>
+      <div class="rect">
+        <img src="./assets/images/card_image.png" width="80px" alt="">
+        <p>Tickets Submitted</p>
+      </div>
+      <div class="rect">
+        <img src="./assets/images/card_image.png" width="80px" alt="">
+        <p>Tickets Submitted</p>
+      </div>
+    </div>
+  </div>
+  <!-- Small Cards Section Ends Here -->
+
+  <!-- About Us Section Starts Here -->
+  <section class="section-1" id="about_section">
+    <div class="container">
+      <div class="row">
+        <div id="about_content" class="col-lg-6 col-md-12 col-sm-12 pt-lg-4">
+          <h1 id="about_heading">About Our Company</h1>
+          <p id="about_font_size" class="text-black justify-content-center align-content-center">Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Iste qui reiciendis repudiandae dolorem, cupiditate nesciunt, quod odit
+            omnis deserunt deleniti cumque sed sunt fugiat! Cupiditate. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quidem incidunt exercitationem molestias explicabo recusandae fugit! </p>
+          <p id="about_font_size" class="text-black justify-content-center align-content-center">Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Iste, in a. Odit, deleniti? Voluptas necessitatibus eius dignissimos quam
+            exercitationem aut impedit veniam dolor, expedita error ipsam itaque dolores earum? Exercitationem ducimus
+            incidunt officiis iure id?</p>
+          <span id="about_button"> <button id="my_button" class="my_button_center">Shop Now</button></span>
+        </div>
+        <div id="about_img" class="col-lg-6">
+          <img class="img-fluid pt-lg-5 pt-md-5 " src="./assets/images/about_image.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seller Section Starts Here -->
+
+  <div class="container" id="seller_section">
+    <div class="row">
+      <div class="col-12">
+        <span class="brand_product">Our Best Seller Product</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <span class="all_products">See All Products&nbsp;<i class="fa-solid fa-angles-right"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards Section  -->
+
+  <div class="container-fluid g-0 text-center mb-5">
+    <div class="seller_cards d-flex flex-md-row flex-wrap justify-content-center">
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-danger">Apple</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-warning">Orange</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-primary">Lemon</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-warning">Banana</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-success">Musk Melon</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-primary">Carrot</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-warning">Lemon</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+      <div class="card_box">
+        <img src="./assets/images/card_image.png" width="120px" alt="">
+        <h5 class="text-info">Onion</h5>
+        <span id="my_span">80$ Per KG</span><span id="my_span_a">Add to Cart</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seller Section Ends Starts Here -->
+
+  <!-- Latest News Section Starts Here -->
+
+  <div class="container" id="news_cards">
+    <div class="row">
+      <div class="col-12">
+        <div class="wrapper">
+          <span>Our Latest News</span>
+        </div>
+      </div>
+      <div class="latest_news_cards d-flex flex-md-row flex-wrap justify-content-center mt-lg-4 mt-md-4 mt-2 ">
+        <div class="card" style="width: 18rem;">
+          <div class="">
+            <div class="card-header bg-transparent ps-0 pe-0">
+
+              <div class="">
+                <span class="small ps-2"><i class="bi bi-alarm"></i></span>
+                <span class="mb-0 small">Sep 14, 2020</span>
+                <span class="ps-3 small"><i class="bi bi-cloud-arrow-up"></i></span>
+                <span class="mb-0 small">Order Now</span>
+                <span class="ps-4 small"><i class="bi bi-chat"></i></span>
+                <span class="ps-1 small"><i class="bi bi-arrow-down-square-fill"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body ps-0 pe-0 pt-0 pb-2">
+            <img src="assets/images/food_card_image.jpg" class="card-img-top rounded-1" alt="...">
+            <p class="card-text pt-lg-3 pt-2"> <b> A New Understandings Of Processed Foods.</b></p>
+            <a href="#"><b>Read More </b> <i class="fa-solid fa-angles-right small"></i> </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="">
+            <div class="card-header bg-transparent ps-0 pe-0">
+
+              <div class="">
+                <span class="small ps-2"><i class="bi bi-alarm"></i></span>
+                <span class="mb-0 small">Sep 14, 2020</span>
+                <span class="ps-3 small"><i class="bi bi-cloud-arrow-up"></i></span>
+                <span class="mb-0 small">Order Now</span>
+                <span class="ps-4 small"><i class="bi bi-chat"></i></span>
+                <span class="ps-1 small"><i class="bi bi-arrow-down-square-fill"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body ps-0 pe-0 pt-0 pb-2">
+            <img src="assets/images/food_card_image.jpg" class="card-img-top rounded-1" alt="...">
+            <p class="card-text pt-lg-3 pt-2"> <b> A New Understandings Of Processed Foods.</b></p>
+            <a href="#"><b>Read More </b> <i class="fa-solid fa-angles-right small"></i> </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="">
+            <div class="card-header bg-transparent ps-0 pe-0">
+
+              <div class="">
+                <span class="small ps-2"><i class="bi bi-alarm"></i></span>
+                <span class="mb-0 small">Sep 14, 2020</span>
+                <span class="ps-3 small"><i class="bi bi-cloud-arrow-up"></i></span>
+                <span class="mb-0 small">Order Now</span>
+                <span class="ps-4 small"><i class="bi bi-chat"></i></span>
+                <span class="ps-1 small"><i class="bi bi-arrow-down-square-fill"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body ps-0 pe-0 pt-0 pb-2">
+            <img src="assets/images/food_card_image.jpg" class="card-img-top rounded-1" alt="...">
+            <p class="card-text pt-lg-3 pt-2"> <b> A New Understandings Of Processed Foods.</b></p>
+            <a href="#"><b>Read More </b> <i class="fa-solid fa-angles-right small"></i> </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Latest News Section Ends Here -->
+
+  <!-- Email Section Starts Here  -->
+
+  <section class="mb-5">
+    <div class="container" id="email_heading">
+      <div class="row d-flex align-items-center justify-content-center h-100">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ps-lg-5">
+          <h2 class="email_input_heading">If You Need Natural And Fresh Organic Fruits!</h2>
+          <p>Please Ask Your Queries Through Email, We Will Respond You Within 24 Hours.</p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter Your Email">
+            <span class="">
+              <button class="btn email_button">Submit</button>
+            </span>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center h-100">
+          <img class="img-fluid" src="./assets/images/card_email_image.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Section Ends Here  -->
+
+
+  <section id="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex">
+            <div class="">
+              <span class="email_input_heading">Foodies.com</span>
+            </div>
+              <div class="ms-auto">
+              <span class="footer_icons"><i class="bi bi-facebook"></i></span>
+              <span class="footer_icons"><i class="bi bi-twitter"></i></span>
+              <span class="footer_icons"><i class="bi bi-instagram"></i></span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

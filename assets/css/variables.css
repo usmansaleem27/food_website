@@ -1,0 +1,6 @@
+:root{
+    --primary: RGB(3, 168, 112);
+    --secondary: #26a0da;
+    --bg-gradient: linear-gradient(to bottom, var(--primary), #38ef7d);
+    
+}

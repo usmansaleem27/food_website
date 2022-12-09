@@ -1,0 +1,301 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: var(--bg-gradient)
+}
+#front_side_image{
+    padding: 50px 10px;
+}
+
+#front_content_left {
+    padding: 22vmin 1vmin;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+#navbar_style{ 
+    background-color: var(--primary);
+}
+#navbar_style .navbar_icons{
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#navbar_style .navbar_menu a{
+    color: white;
+}
+#navbar_style .brand_style{
+    color: white;
+}
+/* Dropdown Starts Here */
+#navbar_style .dropbtn {
+    background-color: var(--primary);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  #navbar_style .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #navbar_style .dropdown-content {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top: 30px;
+    background-color: #f1f1f1;
+    min-width: 115px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  #navbar_style .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #navbar_style .dropdown a:hover {
+    background-color: #ddd;
+}
+  
+  #navbar_style .show {
+    display: block;
+}
+
+#navbar_style .dropbtn {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+/* Home Starts Here */
+#home_content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+}
+#home_content .home_content_top{
+     font-size: 3.2rem;
+    font-weight: 500;
+}
+#home_content span p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+#my_button{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+    border-radius: 25px;
+    transition: 0.3s ease-out;
+}
+#my_button:hover{
+    transform: scale(1.1);
+    font-size: 1.2rem;
+
+}
+/* Small Cards Here */
+.numbers{
+    background-color: RGB(234, 234, 234);
+    padding-bottom: 65px;
+}
+
+.numbers .rect {
+    position: relative;
+    background: white;
+    width: 15rem;
+    height: 10rem;
+    padding-top: 25px;
+    margin: 1rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px 0px  var(--primary);
+    transition: 0.3s ease-in-out;
+}
+.numbers .rect:hover{
+    transform: scale(1.1);
+}
+.numbers .rect p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.numbers .rect img{
+    border: 2px solid #01A26C;
+    border-radius: 45px;
+}
+    /* About Section Here */
+
+#about_section{
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+#about_heading{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#about_font_size {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 20px;
+}
+#about_content{
+    color: var(--primary);
+}
+#about_img{
+    padding-left: 200px;
+}
+#about_img img{
+    width: 80%;
+}
+#about_content{
+    padding-left: 90px;
+}
+
+
+#seller_section .brand_product{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+#seller_section .all_products{
+    color: var(--primary);
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+#seller_section .all_products i{
+    font-weight: bolder;
+}
+.seller_cards{
+    margin-top: 20px;
+}
+.seller_cards .card_box {
+    position: relative;
+    background: white;
+    width: 15rem;
+    height: 14rem;
+    margin: 1rem;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px 0px  var(--primary);
+    transition: 0.3s ease-in-out;
+}
+.seller_cards .card_box img{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.seller_cards .card_box h5{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+#my_span{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+#my_span_a{
+    padding: 5px 8px;
+    position: absolute;
+    top: 178px;
+    right: 20px;
+    color: white;
+    background-color: var(--primary);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.seller_cards .card_box:hover{
+    transform: scale(1.07);
+}
+#news_cards .wrapper span{
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+#news_cards .latest_news_cards .card{
+    margin: 10px 30px;
+    border: 1px solid lightgray;
+}
+#news_cards a{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#email_heading{
+    margin-top: 4%;
+    background: linear-gradient(#F5F7FA, #bcc8da)
+}
+#email_heading .email_input_heading{
+    color: var(--primary);
+}
+#email_heading .input-group input{
+    border-color: var(--primary) ;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#email_heading .input-group .email_button{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 10px 20px;
+}
+#email_heading .input-group .email_button:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer_section .email_input_heading{
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#footer_section .footer_icons{
+    color: var(--primary);
+    font-size: 1.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
