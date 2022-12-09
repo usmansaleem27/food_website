@@ -289,7 +289,7 @@ header {
 #footer_section .email_input_heading{
     color: var(--primary);
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 #footer_section .footer_icons{
@@ -298,4 +298,27 @@ header {
     padding-left: 5px;
     padding-right: 5px;
 }
+#footer_starter{
+    border-bottom: 3px solid black;
+    margin-bottom: 5%;
+}
 
+#footer_section .email_input_heading{
+    color: var(--primary);
+}
+#footer_section .input-group input{
+    border-color: var(--primary) ;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#footer_section .input-group .email_button{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 10px 20px;
+}
+#footer_section .input-group .email_button:hover{
+    color: white;
+}
+#footer_contact_icons{
+    color: #01A26C;
+}
