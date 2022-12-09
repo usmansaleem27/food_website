@@ -16,7 +16,7 @@
 
 
 
-    
+
 
 body{
     margin: 0;
@@ -31,9 +31,9 @@ body{
 header {
     background: var(--bg-gradient)
 }
-#front_side_image{
+/* #front_side_image{
     padding: 50px 10px;
-}
+} */
 
 #front_content_left {
     padding: 22vmin 1vmin;
