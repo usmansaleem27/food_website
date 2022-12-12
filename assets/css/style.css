@@ -31,9 +31,7 @@ body{
 header {
     background: var(--bg-gradient)
 }
-/* #front_side_image{
-    padding: 50px 10px;
-} */
+
 
 #front_content_left {
     padding: 22vmin 1vmin;
@@ -320,7 +318,7 @@ header {
     padding-right: 5px;
 }
 #footer_starter{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--primary);
     margin-bottom: 5%;
     padding-bottom: 1%;
 }
